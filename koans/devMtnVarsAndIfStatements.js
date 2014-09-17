@@ -1,6 +1,6 @@
 describe("About variables and If Statments", function() {
   it("should create a variable called myFirstVariable and set it equal to 1", function() {
-    //code goes here.
+    var myFirstVariable = 1;
     expect(myFirstVariable).toBe(1);
   });
 
@@ -18,7 +18,7 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('C');
   });
 
   it("should understand equality operators", function () {
@@ -35,9 +35,9 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('B');
 
-    //explain your answer here.
+    // 1x '=' sets it to 33, but 2x '==' doesn't differentiate between a string or a set value.
   });
 
   it("should understand equality operators, again", function () {
@@ -54,23 +54,23 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('C');
 
-    //explain your answer here.
+    // because it reset the favoriteNumber to 12.
   });
 
   it('should understand adding strings', function(){
     var num = '3';
-    expect(num + 8).toBe(FILL_ME_IN);
+    expect(num + 8).toBe('38');
 
-    //explain your answer here.
+    // the number '3' + 8, is stimply putting the numbers next to each other instead of actually addin them.
   });
 
   it('should understand adding strings, again', function(){
     var num = '1';
-    expect(num + FILL_ME_IN).toBe('18');
+    expect(num + 8).toBe('18');
 
-    //explain your answer here.
+    // again '1' + 8, is putting the numbers next to each other instead of adding them.
   });
 });
 
